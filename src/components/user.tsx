@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form } from "./form";
-import { getUserData, getUserRepos } from "../promises/userData";
+import { getUserData, getUserRepos } from "../api/fetchUser";
 
 interface IUser {
   avatar_url: string;

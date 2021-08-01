@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import { User } from "./components/user";
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá Amigos!!</h1>
+      <h1>See your github profile</h1>
+      <User />
     </div>
   );
 }
